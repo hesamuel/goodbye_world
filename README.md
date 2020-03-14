@@ -9,9 +9,9 @@ ___
 >"*Sat in bed. Did the whole sad songs and crying bit . . . please make this sad stop. fucking make it stop.*"
 
 
-Seventeen-year-old Victoria McLeod typed this into a secret diary that she kept on her laptop. Weeks later, she'd take her own life, falling ten floors from the roof of a Singapore apartment block. 
+Seventeen-year-old Victoria typed this into a secret diary that she kept on her laptop. Weeks later, she'd take her own life, falling ten floors from the roof of a Singapore apartment block. 
 
-Victoria's death is part of an alarming global statistic of 800,000 deaths from suicide every year. The World Health Organisation recommends that countries craft a national suicide prevention strategy that includes creating initiatives that aim at "early identification of groups vulnerable to the risk of suicide". 
+Her death is part of an alarming global statistic of 800,000 deaths from suicide every year. The World Health Organisation recommends that countries craft a national suicide prevention strategy that includes creating initiatives that aim at "early identification of groups vulnerable to the risk of suicide". 
 
 Text-based data like the words from Victoria's diary and online suicide-aid community threads might just hold the clues to the early identification of individuals at risk of suicide.
 
@@ -43,7 +43,7 @@ Some other reasons why:
 
 
 ### Project Processes
-Our journey started from Data Collection via Reddit's API (which only allows us to get approximately 1000 unique posts). Our next step was cleaning and imputing missing values in our Dataset (a fair number of users in r/SuicideWatch only wrote titles and entered no words in their posts). Using a Count Vectorizer, we analysed the most-used words from each subreddit to understand our data better(The words used were similar with some subtle differences). Using a Pipeline, we scored different classifier models like K-Nearest Neighbours and Multinomial Naive Bayes, finally settling on a final production model (TF-IDF Vectorizer + Multinomial Naive Bayes). After evaluating our results, we applied our model to exerpt's from Victoria's diary, that her parents have made available to be part of Jesse Bering's research for his book Suicidal: Why We Kill Ourselves. 
+Our journey started from Data Collection via Reddit's API (which only allows us to get approximately 1000 unique posts). Our next step was cleaning and imputing missing values in our Dataset (a fair number of users in r/SuicideWatch only wrote titles and entered no words in their posts). Using a Count Vectorizer, we analysed the most-used words from each subreddit to understand our data better(The words used were similar with some subtle differences). Using a Pipeline, we scored different classifier models like K-Nearest Neighbours and Multinomial Naive Bayes, finally settling on a final production model (TF-IDF Vectorizer + Multinomial Naive Bayes). After evaluating our results, we applied our model to exerpt's from Victoria's diary, that her parents have made available to be part of psychologist Jesse Bering's research for his book Suicidal: Why We Kill Ourselves. 
 
 The project is organised into four notebooks:
 
